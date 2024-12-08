@@ -745,7 +745,7 @@ frame-benchmarking-pallet-pov = { default-features = false, path = "substrate/fr
 frame-election-provider-solution-type = { path = "substrate/frame/election-provider-support/solution-type", default-features = false, version = "14.0.1" }
 frame-election-provider-support = { path = "substrate/frame/election-provider-support", default-features = false, version = "37.0.0" }
 frame-executive = { path = "substrate/frame/executive", default-features = false, version = "37.0.0" }
-frame-metadata = { version = "16.0.0", default-features = false }
+frame-metadata = { version = "18.0.0", default-features = false }
 frame-metadata-hash-extension = { path = "substrate/frame/metadata-hash-extension", default-features = false, version = "0.5.0" }
 frame-support = { path = "substrate/frame/support", default-features = false, version = "37.0.1" }
 frame-support-procedural = { path = "substrate/frame/support/procedural", default-features = false, version = "30.0.4" }
@@ -821,7 +821,7 @@ macro_magic = { version = "0.5.1" }
 maplit = { version = "1.0.2" }
 memmap2 = { version = "0.9.3" }
 memory-db = { version = "0.32.0", default-features = false }
-merkleized-metadata = { version = "0.1.0" }
+merkleized-metadata = { version = "0.1." }
 merlin = { version = "3.0", default-features = false }
 messages-relay = { path = "bridges/relays/messages", version = "0.1.0" }
 metered = { version = "0.6.1", default-features = false, package = "prioritized-metered-channel" }
